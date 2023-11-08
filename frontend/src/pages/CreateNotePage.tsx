@@ -23,7 +23,7 @@ export const CreateNotePage = () => {
         'Content-Type': 'application/json'
       }
     }).then((res) => {
-      navigate('/');
+      navigate('/poke');
     }).catch((err) => {
       console.log(err);
     });
